@@ -43,7 +43,7 @@ def Print(matrix):
     for i in range(l):
         for j in range(l):
             print(matrix[i][j], end = " ")
-        print("\n")
+        print("")
 
 def make_ready(matrix):
     l = len(matrix)
